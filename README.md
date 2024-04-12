@@ -19,7 +19,7 @@ Modify main_predict.py for your data set in fasta format
 * output file
   * binary_vector.csv -- The prediction output in binary format (1 for positive and 0 for negative)
     
-    ![image](https://github.com/YnnJ456/ENCAP/assets/95170485/89e9b8ac-c49a-465d-8119-069b7852807a)
+    ![vector](https://github.com/csh07/HEPAD/assets/145912636/853a2868-444a-4e67-99c5-713c16507773)
 
   * probability.csv -- The prediction probability estimate
     
