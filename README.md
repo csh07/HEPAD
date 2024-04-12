@@ -49,7 +49,7 @@ elif dataset == 'Hmpm':
 # Path setting
 pathDict = {'paramPath': f'../data/param/{dataset}/',  # This path should have featureTypeDict.pkl and robust.pkl
             'saveCsvPath': '../data/mlData/new_data/',  # Your encoded data will save in this path
-            'modelPath': f'../data/finalModel/{dataset}/',  # This path should have rbfsvm, lightgbm, gbc models. ex: gbc_final.pkl
+            'modelPath': f'../data/finalModel/{dataset}/',  # This path should have 'rbfsvm', 'lightgbm', 'gbc' models. ex: gbc_final.pkl
             'outputPath': f'../data/output/{dataset}/'}  # Your prediction will save in this path
 ```
 
