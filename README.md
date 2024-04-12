@@ -64,8 +64,8 @@ inputPathList = [f'../data/mlData/{dataset}/test_neg.FASTA', f'../data/mlData/{d
 Here is the code snippet in main_predict.py. We already set the parameters and the program is ready to be excecuted.
 
 ```py
-encapObj = ENCAP_Predict(model_use=model_use, pathDict=pathDict)
-encapObj.loadData(inputDataDict=inputDataDict)
+encapObj = HEPAD_Predict(model_use=model_use, pathDict=pathDict)
+encapObj.loadData(inputDataList=inputPathList)
 encapObj.featureEncode()
 encapObj.doPredict()
 ```
