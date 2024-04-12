@@ -23,7 +23,7 @@ Modify main_predict.py for your data set in fasta format
 
   * probability.csv -- The prediction probability estimate
     
-    ![image](https://github.com/YnnJ456/ENCAP/assets/95170485/c03deada-58cc-4c1f-814f-301f9362fa21)
+    ![prob](https://github.com/csh07/HEPAD/assets/145912636/9fbba106-faf9-4dc4-9455-775f32463b90)
 
 When dataset = 'Hmp1', the program will use models trained on Hmp1, corresponding features, and their normalization scaler to process data and perform prediction.
 
